@@ -38,6 +38,7 @@ function App() {
 
   return (
     <div className="app-background" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",textAlign: "center", marginTop: "50px" }}>
+      <div className="app-card">
       <h1 style={{ fontSize: "36px", color: "#fca103"}}> Number Guessing Game</h1>
       <p style={{ fontSize: "24px", color: "#333"}}>Guess a number between 1 and 100</p>
 
@@ -61,6 +62,7 @@ function App() {
       >
         Restart Game
       </button>
+      </div>
     </div>
   );
 }
